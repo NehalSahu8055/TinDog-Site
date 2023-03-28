@@ -1,0 +1,183 @@
+body{
+    font-family:'Montserrat';
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:'Montserrat';
+    line-height: 1.5;
+}
+
+.container-fluid{
+    /* padding:3% 15% 7%; */
+    padding: 8% 20%;
+}
+
+
+#title{
+    text-align: left;
+    position: relative;
+    background-image: linear-gradient(#d798a0,#ff4c68);
+}
+#title .container-fluid{
+    padding:3% 15%;
+}
+.title-heading{
+    color:white;
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+.title-idog{
+    position: absolute;
+    width:21%;
+    max-width: 60%;
+    transform: rotate(25deg);
+    right:30%;
+}
+.navbar-brand{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+.nav-item{
+    padding: 0 18px;;
+}
+.navbar{
+    padding-bottom:4.5rem;
+}
+.nav-link{ 
+    font-size : 1.2rem;
+    font-weight: 400;
+}
+.download-btn{
+    margin:5% 3% 5% 0;
+}
+
+
+#features{
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+    
+}
+.features-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.feat-icon{
+    color:#ef8172;
+    padding-bottom:4%;
+}
+.feat-icon:hover{
+    color:#ff4c68;
+}
+.feat-p{
+    color:#8f8f8f;
+}
+
+
+#testimonials{
+    color:#fff;
+    background-color: #ef8172;
+}
+.testimonial-text{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.carousel-item{
+     padding:8% 20%;
+}
+.testimonial-img{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+#press{
+    background-color: #ef8172;
+    padding-bottom:3%
+}
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    position:relative;
+    padding:3% 2%;
+   
+}
+.pricing-column:hover{
+    box-shadow: -5px -5px 0px 5px;
+    top:5px;
+
+    left:5px;
+    
+}
+.pricing-heading{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.pricing-card-heading{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.per-month{
+    font-size: 90px;
+    font-weight:800;
+}
+
+
+#cta{
+    padding: 8% 20%;
+    color:#fff;
+    background-color:#ff4c68;
+}
+.cta-heading{
+    font-size: 2.3rem;
+    font-weight: 600;
+
+}
+
+
+#footer{
+    padding: 8% 20%;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 0.8rem;
+    color:#8f8f8f;
+}
+.social-icon{
+    margin:20px 10px;
+    color:black;
+}
+.social-icon:hover{
+    color:rgb(58, 56, 56) ;
+}
+
+
+
+@media (max-width:1028px){
+    #features{
+        background-color: #fff;
+        position: relative;
+        /* z-index: 1; */
+        padding: 8% 20%;
+    }
+    .title-idog{
+        width:60%;
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+
+   
+
+}
