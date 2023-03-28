@@ -163,6 +163,9 @@ h1, h2, h3, h4, h5, h6{
 
 
 @media (max-width:1028px){
+    body{
+        zoom:1.3;
+    }
     #features{
         background-color: #fff;
         position: relative;
